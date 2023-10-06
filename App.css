@@ -1,0 +1,87 @@
+.App {
+  text-align: left;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  }
+
+  .clipart {
+    width: calc(50px + 4vmin);
+    height: calc(50px + 2vmin);
+    padding-left: 40px;
+  }
+
+  select {
+    cursor: pointer;
+    display: inline-block;
+    font-size: calc(7px + 2vmin);
+    color: rgb(30, 32, 119);
+    background-color: #a1ecff;
+    width: calc(300px + 10vmin);
+    height: calc(21px + 2vmin);
+    padding-left: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 15px;
+
+  }
+
+  .select:hover {
+    background-color: rgb(10, 67, 90);
+    color: #ffffff;
+  }
+  
+  .searchBox {
+    cursor: text;
+    display: inline-block;
+    font-size: calc(7px + 2vmin);
+    background-color: #a1ecff;
+    width: calc(300px + 10vmin);
+    height: calc(15px + 2vmin);
+    padding-left: 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-image: url('./backgroundimage.jpg');
+    background-size: cover;
+    width: calc(12px+10vmin);
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Channel";
+    font-size: calc(12px + 2vmin);
+    color: black;
+    padding-left: 7vmin;
+    padding-top: 5vmin
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+
+  .surf-spot {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  
+  .data-points {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+
+  .data-point {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
